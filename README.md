@@ -23,7 +23,6 @@ Aplikasi ini dirancang untuk latihan pemrograman dasar dalam Java dan untuk memp
 
 # Dokumentasi Code
 
-## Code Frame (JFrame)
 
 ```java
 
