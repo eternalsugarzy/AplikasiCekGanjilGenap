@@ -1,12 +1,15 @@
 
-# Aplikasi Cek Nomor Ganjil Genap
+# Aplikasi Cek Ganjil Genap
 
-Tugas 1 Modul Aplikas Cek Nomor Ganjil Genap
+Tugas 1 Modul Aplikasi Cek Ganjil Genap
 
-Aplikasi Cek Nomor Ganjil Genap adalah proyek sederhana yang dibuat sebagai latihan dalam modul pembelajaran pemrograman GUI berbasis Java. Aplikasi ini berfungsi untuk membantu pengguna mengetahui apakah suatu nomor tertentu adalah ganjil atau genap. Pengguna dapat memasukkan nomor yang ingin diperiksa melalui antarmuka GUI, dan aplikasi akan secara otomatis menampilkan hasilnya sebagai "Ganjil" atau "Genap."
+Aplikasi Cek Nomor Ganjil Genap dan Bilangan Prima adalah proyek sederhana yang dikembangkan sebagai latihan dalam modul pembelajaran pemrograman GUI berbasis Java. Aplikasi ini berfungsi untuk membantu pengguna mengetahui apakah suatu nomor tertentu adalah ganjil atau genap, serta memeriksa apakah nomor tersebut adalah bilangan prima. Dengan fitur ini, pengguna dapat dengan mudah mengecek sifat dari suatu angka melalui antarmuka yang interaktif.
 
 # Deskripsi
-Aplikasi ini menggunakan komponen JFrame untuk membangun antarmuka pengguna yang sederhana dan interaktif. Pengguna memasukkan angka ke dalam aplikasi, dan aplikasi akan memproses input tersebut untuk menentukan apakah angka itu ganjil atau genap. Jika angka tersebut dapat dibagi dua tanpa sisa, maka akan ditampilkan sebagai "Genap." Sebaliknya, jika memiliki sisa pembagian, maka akan ditampilkan sebagai "Ganjil."
+Aplikasi ini menggunakan komponen JFrame untuk membangun antarmuka pengguna yang sederhana dan mudah digunakan. Pengguna dapat memasukkan angka yang ingin diperiksa melalui antarmuka GUI, dan aplikasi akan menampilkan hasilnya:
+
+Ganjil atau Genap: Aplikasi akan menentukan apakah angka yang dimasukkan adalah ganjil atau genap, berdasarkan sisa hasil bagi angka tersebut dengan 2.
+Bilangan Prima: Selain ganjil atau genap, aplikasi juga akan mengecek apakah angka tersebut merupakan bilangan prima, yaitu bilangan yang hanya memiliki dua faktor pembagi: 1 dan dirinya sendiri.
 
 
 
@@ -22,7 +25,6 @@ Aplikasi ini dirancang untuk latihan pemrograman dasar dalam Java dan untuk memp
 
 
 # Dokumentasi Code
-
 
 ```java
 
@@ -219,9 +221,8 @@ public class AplikasiCekNomorGanjilGenapForm extends javax.swing.JFrame {
     // End of variables declaration                   
 }
 
+
 ```
-
-
 
 
 ## Authors
